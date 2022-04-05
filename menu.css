@@ -1,0 +1,103 @@
+*{
+margin:0px;
+left:0px;
+padding:0px;
+
+}
+body{
+box-sizing:border-box;
+background-image:linear-gradient(to bottom right,lightblue 60%,aqua 40%);
+
+}
+.wrapper{
+
+display:block;
+height:auto;
+position:relative;
+}
+.content{
+
+//background:#336600;
+
+
+
+}
+
+ .content ol li{
+list-style-type:none;
+background:#333366;
+max-width:100%;
+border-style:none;
+padding:8px 5px;
+display:none;
+
+
+}
+
+ .content:hover li{
+
+display:block;
+font-weight:1000;
+font-family:fantasy;
+color:green;
+}
+.content:hover i{
+display:none;
+
+}
+
+
+
+
+.main{
+
+text-align:center;
+font-family:cursive;
+
+
+}
+main{
+text-align:left;
+font-family:Courier new,monospace;
+
+}
+footer {
+
+    
+   color:teal;
+   background: #333;
+   position: relative; /* required to position the copyright at the bottom */
+   font-size:15px;
+   }
+   .footer-copyright {
+   width: 100%;
+   height: auto;
+   background: #111;
+   /* positions the copyright at the bottom of the footer */
+   padding: 10px;
+   position: absolute;
+   bottom:0px;
+   text-align:center;
+   left:0px;
+   }
+   .footer-body {
+   font-size:18px;
+   font-family:cursive;
+   margin-bottom: 30px;
+   padding: 60px;
+   }
+   .footer-body > div:first-child {
+   font-size: 150%;
+   }
+   .footer-body ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 5px 10px;
+   text-align: center;
+   height:auto;
+   }
+   .footer-body li > a {
+   color: white;
+   text-decoration: none;
+   margin-bottom: 7px;
+   }
